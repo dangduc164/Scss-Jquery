@@ -1,0 +1,150 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    // background:rgb(157, 134, 134);
+.nen{
+    height:50em;
+    background-image: url('/SCSS/images/background1.png') ;
+    background-repeat:no-repeat;
+    img{
+        margin-top: 7%;
+        height:100%;
+        position: relative;
+        left: 7%;
+        bottom:4%;
+    }
+    h1{
+        font-size: 64px;
+    }
+    .text-nen{
+        font-size: 26px;
+        float:left;
+        margin-left: 10%;
+        margin-top: 17%;
+    }
+}
+
+.body-1{
+    height: 50em;
+    background-image: url('/SCSS/images/3526847_04.jpg');
+    background-repeat:no-repeat;
+    
+    h1{
+        font-size: 60px;
+    }
+    .text-1{
+        font-size: 25px;
+        float:left;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+} 
+
+.body-2{
+    position: relative;
+    left:5%;
+    
+}
+
+.body-3{
+    background-image: url('/SCSS/images/nen-body3_08.png') ;
+    height: 40em;
+    background-repeat:no-repeat;
+    img{
+        height: 88%;
+        margin-top: 10%;
+    }
+    h1{
+        font-size: 60px;
+    }
+    .text-3{
+        font-size: 23px;
+        float:right;
+        margin-right: 10%;
+        margin-top: 19%;
+
+    }
+}
+
+.body-4{
+    height: 37em;
+    background-color: #e9e8e6;
+    img{
+        height: 95%;
+        
+    }
+    h1{
+        font-size: 60px;
+    }
+    .text-4{
+        font-size: 23px;
+        float:right;
+        margin-right: 10%;
+        margin-top: -35%;
+
+    }
+}
+.body-5{
+    background-image: url('/SCSS/images/images/3526847_05.png');
+    height: 50em;
+    background-repeat:no-repeat;
+    .text-5{
+        text-align: center;
+        margin-top: 2%;
+    }
+    .card{
+        margin-top: 4%;
+        left: 40%;
+        box-shadow: 10px 15px 15px #ece7e7;
+    }
+}
+.body-6{
+    background-color: #f3d1d1;
+    height: 38em;
+    img{
+        margin: 15%;
+        box-shadow: 10px 15px 15px #717070;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .text-6{
+        font-size: 23px;
+        float:right;
+        margin:17% 10% 0 10%;
+    }
+    .icon{
+        margin-left:10%
+    }
+}
+.body-7{
+    background-image: url('/SCSS/images/nen7_12.jpg');
+    height: 51em;
+    background-repeat:no-repeat;
+    border: 1px solid white;
+    .text-7{
+        font-size: 23px;
+        text-align: center;
+        margin:6% 20% 0 20%;
+    }
+    .comment{
+        margin: 5% 17% 0% 17%;
+    }
+    .btn{
+        text-align: center;
+    }
+}
+.footer{
+
+    background-color: #424954;
+    height: 18em;
+}
+.text-footer{
+    color: white;
+}
+i{
+    color: #000;
+}
+}
+
+    
