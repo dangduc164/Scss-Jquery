@@ -1,150 +1,200 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
-    // background:rgb(157, 134, 134);
-.nen{
-    height:50em;
-    background-image: url('/SCSS/images/background1.png') ;
-    background-repeat:no-repeat;
-    img{
-        margin-top: 7%;
-        height:100%;
+    color: #555555;
+    .header {
         position: relative;
-        left: 7%;
-        bottom:4%;
+        padding: 10px;
+        .open {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+        .text-menu {
+            float: right;
+            ul li {
+                list-style: none;
+                float: left;
+                text-decoration: none;
+                cursor: pointer;
+                font-size: 24px;
+                a {
+                    color: black;
+                    display: inline-block;
+                    padding: 20px 30px;
+                }
+            }
+        }
     }
-    h1{
-        font-size: 64px;
+    .section1 {
+        background: url(/SCSS/images/background1.png) no-repeat;
+        background-size: cover;
+        padding: 30px 0;
+        h1 {
+            font-size: 60px;
+        }
+        .nen {
+            height: 50em;
+            background-image: url('/SCSS/images/background1.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            img {
+                margin-top: 7%;
+                position: relative;
+                left: 7%;
+                bottom: 4%;
+            }
+            h1 {
+                font-size: 64px;
+            }
+            img {
+                max-width: 100%;
+            }
+        }
+        .text-nen {
+            font-size: 24px;
+            float: left;
+            margin-left: 10%;
+            margin-top: 15%;
+        }
     }
-    .text-nen{
-        font-size: 26px;
-        float:left;
-        margin-left: 10%;
-        margin-top: 17%;
+    .body-1 {
+        background-image: url(/SCSS/images/3526847_04.jpg);
+        background-size: cover;
+        height: 800px;
+        img {
+            max-width: 100%;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        .text-1 {
+            margin: 8% 0% 0% 10%;
+            font-size: 24px;
+            float: left;
+            position: absolute;
+        }
+    }
+    .body-2 {
+        position: relative;
+        left: 5%;
+    }
+    .body-3 {
+        background: url('/SCSS/images/nen-body3_08.png');
+        background-size: cover;
+        padding: 70px;
+        img {
+            margin-top: 10%;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        .text-3 {
+            font-size: 24px;
+            margin-right: 10%;
+            margin-top: 10%;
+        }
+    }
+    .body-4 {
+        background: url(/SCSS/images/nem4_1_02.png) no-repeat;
+        background-size: cover;
+        padding: 50px;
+        h1 {
+            font-size: 50px;
+        }
+        .text-4 {
+            font-size: 24px;
+            margin-top: 15%;
+        }
+        .img {
+            float: left;
+        }
+    }
+    .body-5 {
+        background: url('/SCSS/images/images/3526847_05.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 50px;
+        h1 {
+            font-size: 50px;
+        }
+        .text-5 {
+            font-size: 24px;
+            text-align: center;
+            margin-top: 2%;
+        }
+        .card {
+            margin-top: 4%;
+            box-shadow: 10px 15px 15px #ece7e7;
+        }
+        .card :hover {
+            color: red;
+        }
+    }
+    .body-6 {
+        background-color: #f3d1d1;
+        padding: 70px;
+        img {
+            margin: 10% 0% 10% 0%;
+            box-shadow: 10px 15px 15px #717070;
+        }
+        h1 {
+            font-size: 48px;
+        }
+        .text-6 {
+            margin: 10% 0% 10% 5%;
+            font-size: 24px;
+            float: right;
+        }
+        .icon {
+            float: left;
+            margin: 0% 0% 0% 5%;
+        }
+    }
+    .body-7 {
+        background: url('/SCSS/images/nen7_12.jpg') no-repeat;
+        background-size: cover;
+        padding: 50px;
+        .text-7 {
+            font-size: 24px;
+            text-align: center;
+        }
+        .comment {
+            margin: 5% 17% 0% 17%;
+        }
+    }
+    .footer {
+        background-color: #424954;
+        height: 100%;
+        .text-footer {
+            color: white;
+        }
+        i {
+            color: black;
+        }
+    }
+    #dialog {
+        background: url(/SCSS/images/yoga.jpg) no-repeat;
+        background-size: cover;
+        width: 450px;
+        height: 350px;
+    }
+    //mobile:width<740px; man hinh dt 
+    @media only screen and (min-width:320px) and (max-width: 767px) {
+        .text-foodter {
+            color: #FFFFFF;
+        }
+        img {
+            max-width: 100%;
+        }
+    }
+    // man hinh ipad
+    @media only screen and(min-width:768px) and (max-width:1025px) {
+        img {
+            max-width: 100%;
+        }
+        .nen {
+            background-size: 100% 50%;
+        }
     }
 }
-
-.body-1{
-    height: 50em;
-    background-image: url('/SCSS/images/3526847_04.jpg');
-    background-repeat:no-repeat;
-    
-    h1{
-        font-size: 60px;
-    }
-    .text-1{
-        font-size: 25px;
-        float:left;
-        margin-left: 10%;
-        margin-top: 15%;
-    }
-} 
-
-.body-2{
-    position: relative;
-    left:5%;
-    
-}
-
-.body-3{
-    background-image: url('/SCSS/images/nen-body3_08.png') ;
-    height: 40em;
-    background-repeat:no-repeat;
-    img{
-        height: 88%;
-        margin-top: 10%;
-    }
-    h1{
-        font-size: 60px;
-    }
-    .text-3{
-        font-size: 23px;
-        float:right;
-        margin-right: 10%;
-        margin-top: 19%;
-
-    }
-}
-
-.body-4{
-    height: 37em;
-    background-color: #e9e8e6;
-    img{
-        height: 95%;
-        
-    }
-    h1{
-        font-size: 60px;
-    }
-    .text-4{
-        font-size: 23px;
-        float:right;
-        margin-right: 10%;
-        margin-top: -35%;
-
-    }
-}
-.body-5{
-    background-image: url('/SCSS/images/images/3526847_05.png');
-    height: 50em;
-    background-repeat:no-repeat;
-    .text-5{
-        text-align: center;
-        margin-top: 2%;
-    }
-    .card{
-        margin-top: 4%;
-        left: 40%;
-        box-shadow: 10px 15px 15px #ece7e7;
-    }
-}
-.body-6{
-    background-color: #f3d1d1;
-    height: 38em;
-    img{
-        margin: 15%;
-        box-shadow: 10px 15px 15px #717070;
-    }
-    h1{
-        font-size: 50px;
-    }
-    .text-6{
-        font-size: 23px;
-        float:right;
-        margin:17% 10% 0 10%;
-    }
-    .icon{
-        margin-left:10%
-    }
-}
-.body-7{
-    background-image: url('/SCSS/images/nen7_12.jpg');
-    height: 51em;
-    background-repeat:no-repeat;
-    border: 1px solid white;
-    .text-7{
-        font-size: 23px;
-        text-align: center;
-        margin:6% 20% 0 20%;
-    }
-    .comment{
-        margin: 5% 17% 0% 17%;
-    }
-    .btn{
-        text-align: center;
-    }
-}
-.footer{
-
-    background-color: #424954;
-    height: 18em;
-}
-.text-footer{
-    color: white;
-}
-i{
-    color: #000;
-}
-}
-
-    
