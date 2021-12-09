@@ -1,7 +1,4 @@
 $(function() {
-    $("#dialog").dialog();
-});
-$(function() {
     $(document).tooltip();
 });
 $("#send").on("click", function() {
@@ -10,4 +7,7 @@ $("#send").on("click", function() {
 $(".text-menu").on("click", function(e) {
     $("body").toggleClass("open");
     e.preventDefault();
+});
+$(document).ready(function() {
+    $('.header').show;
 });

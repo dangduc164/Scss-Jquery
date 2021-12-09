@@ -134,10 +134,10 @@ body {
       color: black; }
   body #dialog {
     background: url(/SCSS/images/yoga.jpg) no-repeat;
-    background-size: cover;
-    width: 450px;
-    height: 350px; }
-  @media only screen and (min-width: 320px) and (max-width: 767px) {
+    background-size: cover; }
+  @media (max-width: 767px) {
+    body p {
+      display: none; }
     body .text-foodter {
       color: #FFFFFF; }
     body img {
