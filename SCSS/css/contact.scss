@@ -26,6 +26,16 @@ body {
             }
         }
     }
+    .footer {
+        background-color: #424954;
+        height: 100%;
+        .text-footer {
+            color: white;
+        }
+        i {
+            color: black;
+        }
+    }
     main {
         background: url('/SCSS/images/yoga-la-gi.jpg'), no-repeat;
         background-size: 100% 100%;
